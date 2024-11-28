@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["Christopher"]
+  },
+  "header": {
+    "name": "§l§4Ley§7Bag",
+    "description": "Simple sethome command.\nhttps://facebook.com/christopher.jr.01",
+    "min_engine_version": [1,20,60],
+    "uuid": "a918716f-75f6-4e53-87cd-c5a3356e6c84",
+    "version": [1,0,0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "93e6e971-067d-42f9-afcc-c779403fdc7c",
+      "version": [1,0,0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e4b39e3a-f0b9-4a77-853c-930351af4a82",
+      "entry": "scripts/main.js",
+      "version": [1,0,0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.4.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0-beta"
+    },
+    {
+      "uuid": "8bf50f31-834c-4b02-a1e4-cd7e4694df52",
+      "version": [0,0,1]
+    }
+  ]
+}
